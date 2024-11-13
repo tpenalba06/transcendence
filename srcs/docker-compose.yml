@@ -1,0 +1,40 @@
+services:
+  django:
+    image: django
+    container_name: django
+    build:
+      context: ./back
+    volumes:
+      - ./back/:/usr/src/app
+    ports:
+      - "8000:8000"
+    env_file: ./back/.env
+  
+  db_postgres:
+    image: postgres
+    container_name: postgres
+    build:
+      context: ./database
+    ports:
+      - "5432:5432"
+    env_file: ./database/.env
+    restart: always
+  
+  react:
+    image: react
+    container_name: react
+    build:
+      context: ./front
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./front/frontend/:/app
+    env_file: ./front/frontend/.env
+    restart: always
+
+  adminer:
+    image: adminer
+    container_name: adminer
+    restart: always
+    ports:
+      - "8080:8080"
