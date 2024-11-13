@@ -1,21 +1,12 @@
 import axios from "axios"
-import { ACCESS_TOKEN } from "./constants"
+import { ACCESS_TOKEN, REFRESH_TOKEN } from "./constants";
 
-const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URL
-})
+axios.defaults.baseURL = import.meta.env.VITE_API_URL
 
-api.interceptors.request.use(
-    (config) => {
-        const token = localStorage.getItem(ACCESS_TOKEN);
-        if (token) {
-            config.headers.Authorization = `Bearer ${token}`
-        }
-        return config
-    },
-    (error) => {
-        return Promise.reject(error)
-    }
-)
-
-export default api
+export const getUser = async () => {
+    const spl = localStorage.getItem(REFRESH_TOKEN).split('.')
+    const sec_id = spl[2]
+    console.log("ouaiiiiiiiiiii l'id 2: " + sec_id)
+    const response = await axios.get("/api/user/getUser/?" + `${sec_id}`)
+    return (response.data)
+}

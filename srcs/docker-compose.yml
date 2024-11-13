@@ -9,6 +9,7 @@ services:
     ports:
       - "8000:8000"
     env_file: ./back/.env
+    restart: always
   
   db_postgres:
     image: postgres

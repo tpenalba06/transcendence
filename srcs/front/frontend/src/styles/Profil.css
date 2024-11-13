@@ -1,0 +1,35 @@
+.bg-profil {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/background_pong.png);
+    box-shadow: inset 0 0 0 200000px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.content-profil{
+    display: flex;
+    color: white;
+    border: 4px solid rgba(137, 18, 153, 0.795);
+    border-radius: 100px;
+    background-color: rgba(106, 11, 129, 0.356);
+    box-shadow: inset 0 0 50px rgba(255, 255, 255, 0.877);
+    backdrop-filter: blur(10px);
+    height: 80vh;
+    width: 70%;
+}
+
+.pp{
+    border-radius: 100000000px;
+    height: 150px;
+    margin: 50px 50px;
+}

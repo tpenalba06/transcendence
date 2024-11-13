@@ -1,0 +1,31 @@
+body {
+	background-image: url(../../assets/background_pong.png);
+}
+
+.MovingBall {
+	display : flex;
+	max-width: fit-content;
+	flex-direction: column;
+	font-size: large;
+	text-align: center;
+	color: white;
+	background-color: transparent;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.MovingBall button {
+
+	color: white;
+	background-color: black;
+	border: 3px solid white;
+	border-radius: 6px;
+	padding: 5px;
+	margin: 2.5px;
+}
+.MovingBall button:active {
+	color: black;
+	background-color: white;
+}

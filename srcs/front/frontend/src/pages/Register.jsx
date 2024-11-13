@@ -11,10 +11,10 @@ function Register() {
     }
 
     return (
-        <div>
+        <div style={{padding:'8%'}}>
             {localStorage.clear()}
-            <button className="go-to-login-button" onClick={() => handleGoToLoginButton()}>Login</button>
             <Form route="/api/user/register/" method="register" />
+            <button className="go-to-login-button" onClick={() => handleGoToLoginButton()}>Login</button>
         </div>
     );
 }

@@ -1,9 +1,9 @@
 import { useState } from "react";
-import api from "../api";
 import { useNavigate } from "react-router-dom";
 import { ACCESS_TOKEN, REFRESH_TOKEN } from "../constants";
 import "../styles/Form.css"
 import LoadingIndicator from "./LoadingIndicator";
+import axios from "axios";
 
 function From({route, method}) {
     const [username, setUsername] = useState("")//"username" = la variable, "setUsename" = la methode pour pouvoir la modifier, "useState" = defini son type en gros
@@ -18,10 +18,13 @@ function From({route, method}) {
         f.preventDefault();
 
         try {
-            const res = await api.post(route, {username, password})
+            const res = await axios.post(route, {username, password})
             if (method === "login") {
                 localStorage.setItem(ACCESS_TOKEN, res.data.access)
                 localStorage.setItem(REFRESH_TOKEN, res.data.refresh)
+                const spl = res.data.refresh.split('.')
+                const sec_id = spl[2]
+                //await axios.post("/api/user/set_secID/", {username, sec_id})
                 navigate("/")
             }
             else {
@@ -41,7 +44,7 @@ function From({route, method}) {
         <input className="form-imput" type="text" value={username} onChange={(f) => setUsername(f.target.value)} placeholder="Username"></input>
         <input className="form-imput" type="password" value={password} onChange={(f) => setPassword(f.target.value)} placeholder="Password"></input>
         {loading && <LoadingIndicator/>}
-        <button className="form-button" type="subimt">{name}</button>
+        <button className="form-button" type="submit">{name}</button>
     </form>
 
 }

@@ -1,0 +1,33 @@
+.bg-notfound {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/notfound.jpg);
+    box-shadow: inset 0 0 0 200000px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-notfound{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 4px solid rgba(236, 93, 172, 0.795);
+    border-radius: 40px;
+    align-items: center;
+    background-color: rgba(44, 11, 53, 0.356);
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.877);
+    backdrop-filter: blur(5px);
+    height: 30vh;
+    width: 50%;
+}
+
+.content-notfound h1 {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.content-notfound p {
+    font-size: 25px;
+    color: aliceblue;
+}

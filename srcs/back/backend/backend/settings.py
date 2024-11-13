@@ -29,22 +29,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',
-    'http://localhost:8000',
-]
-
-CSRF_TRUSTED_ORIGINS = ['http://localhost:5173']
-
-
-CSRF_TRUSTED_ORIGINS = [
-    'http://localhost:5173',
-    'http://localhost:8000',
-]
-
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'localhost:5173']
-
-
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework_simplejwt.authentication.JWTAuthentication",
@@ -56,24 +40,31 @@ REST_FRAMEWORK = {
 
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=30),
-    "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=365),
 }
+CSRF_TRUSTED_ORIGINS = ['https://localhost:5173', 'https://127.0.0.1:5173']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'channels',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'api',
     'rest_framework',
     'corsheaders',
-    'user_auth',
+
+    'api',
+	'user',
+    'pong'
 ]
+
+ASGI_APPLICATION = 'backend.asgi.application'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -147,6 +138,78 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+
+# Internationalization
+# https://docs.djangoproject.com/en/5.1/topics/i18n/
+
+LANGUAGE_CODE = 'en-us'
+
+TIME_ZONE = 'UTC'
+
+USE_I18N = True
+
+USE_TZ = True
+
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/5.1/howto/static-files/
+
+STATIC_URL = 'static/'
+
+# Default primary key field type
+# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+AUTH_USER_MODEL = 'user.User'
+
+CORS_ALLOW_ALL_ORIGINS = True
+#pour des raison de securite, a l'avenir, penser a chager ce qu'il y a en bas la
+CORS_ALLOW_CREDENTIALS = True
+
+# LOGGING = {
+#     'version': 1,
+#     'disable_existing_loggers': False,
+#     'handlers': {
+#         'console': {
+#             'level': 'DEBUG',
+#             'class': 'logging.StreamHandler',
+#         },
+#     },
+#     'loggers': {
+#         'django': {
+#             'handlers': ['console'],
+#             'level': 'DEBUG',
+#             'propagate': True,
+#         },
+#         'django.db.backends': {
+#             'handlers': ['console'],
+#             'level': 'INFO',
+#             'propagate': False,
+#         },
+#         'api': {
+#             'handlers': ['console'],
+#             'level': 'INFO',
+#             'propagate': True,
+#         },
+# 		'user': {
+#             'handlers': ['console'],
+#             'level': 'INFO',
+#             'propagate': True,
+#         },
+#         'pong': {
+#             'handlers': ['console'],
+#             'level': 'INFO',
+#             'propagate': True,
+#         },
+#         'user_auth': {
+#             'handlers': ['console'],
+#             'level': 'DEBUG',
+#             'propagate': True,
+#         }
+#         # Add other apps here if needed
+#     },
+# }
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -176,37 +239,3 @@ LOGGING = {
         # Add other apps here if needed
     },
 }
-
-
-# Internationalization
-# https://docs.djangoproject.com/en/5.1/topics/i18n/
-
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
-
-USE_I18N = True
-
-USE_TZ = True
-
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/5.1/howto/static-files/
-
-STATIC_URL = 'static/'
-
-# Default primary key field type
-# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
-
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-AUTH_USER_MODEL = 'api.User'
-
-CORS_ALLOW_ALL_ORIGINS = True
-#pour des raison de securite, a l'avenir, penser a chager ce qu'il y a en bas la
-CORS_ALLOW_CREDENTIALS = True
-# backend/settings.py
-
-CLIENT_ID = 'u-s4t2ud-efb8810a6794b0509ab1b30b4baeb56fff909df009eb5c29cde1d675f5309a75'
-CLIENT_SECRET = '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'
-REDIRECT_URI = 'http://localhost:8000/auth/callback'

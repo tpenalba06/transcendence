@@ -23,7 +23,7 @@
     width: 95%;
     padding: 10px;
     margin: 20px 0;
-    background-color: #007bff;
+    background-color: #cc00ff;
     color: white;
     border: none;
     border-radius: 4px;
@@ -32,6 +32,6 @@
   }
   
   .form-button:hover {
-    background-color: #0056b3;
+    background-color: #7a0099;
   }
   
