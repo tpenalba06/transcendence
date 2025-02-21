@@ -39,3 +39,9 @@ services:
     restart: always
     ports:
       - "8080:8080"
+
+  redis:
+    image: redis
+    container_name: redis
+    ports:
+      - "6380:6379"

@@ -1,11 +1,13 @@
-from django.urls import path, include
-from .views import CreatUserView, getUser#, set_id
-from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
+from django.urls import path
+from .views import LoginView, CreatUserView, LogoutView, BlockedUsersView
+from .views import getUser, getQrcode
 
 urlpatterns = [
-    #path('set_secID/', set_id,name="set_secID"),
     path('getUser/', getUser, name="getUser"),
     path('register/', CreatUserView.as_view(), name="register"),
-    path('token/', TokenObtainPairView.as_view(), name="get_token"),
-    path('token/refresh/', TokenRefreshView.as_view(), name="refresh"),
+    path('token/', LoginView.as_view(), name="login"),
+    path('logout/', LogoutView.as_view(), name="logout"),
+    path('qrcode/', getQrcode, name="get_qrcode"),
+    path('blocked/', BlockedUsersView.as_view(), name="blocked_users"),
+    path('blocked/<int:user_id>/', BlockedUsersView.as_view(), name="unblock_user"),
 ]

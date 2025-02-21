@@ -1,8 +1,18 @@
-body {
-	background-image: url(../../assets/background_pong.png);
+
+html {
+	height: 100%;
+}
+
+#root {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
 }
 
 .MovingBall {
+	position: relative;
 	display : flex;
 	max-width: fit-content;
 	flex-direction: column;
@@ -28,4 +38,48 @@ body {
 .MovingBall button:active {
 	color: black;
 	background-color: white;
+}
+
+.leftBar {
+	display : flex;
+
+	position: relative;
+	left: 0;
+	top: 0;
+
+	width: 5rem;
+	min-height: 20px;
+	background-color: gray;
+
+	border: 3px solid white;
+	border-radius: 6px;
+	padding: 10px;
+}
+
+#leftBar span {
+	display: block;
+	height: 100%;
+
+	position: relative;
+	overflow: hidden;
+
+	background-color: aqua;
+	width: 25%;
+}
+
+#wrapper {
+	position:relative;
+    display:inline-block;
+
+}
+
+canvas {
+	vertical-align: middle;
+}
+
+.ici {
+	position: absolute;
+	top:50%; /* element top side at 50% of container top side */
+    left:50%; /* element left side at 50% of container left side */
+    transform:translate(-50%,-50%);
 }

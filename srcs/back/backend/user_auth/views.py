@@ -2,12 +2,8 @@
 
 import requests
 import logging
-from django.http import HttpResponseRedirect, JsonResponse
-from django.conf import settings
-from django.shortcuts import redirect
-from django.http import JsonResponse, HttpResponse
-from django.conf import settings
-from user.serializers import UserSerializer
+from django.http import JsonResponse
+from user.serializers import CreatUserSerializer, UserSerializer
 from user.models import User
 
 logger = logging.getLogger(__name__)
@@ -58,11 +54,11 @@ def login42(request):
     link = my42Picture.get("link") if my42Picture else None  
     # JE RECUP TOUS MES ELEMENTS UTILS A MON USER
     logger.info("MON LOGIN --> %s", myLogin)
-    logger.info("MA PP FDP --> %s", my42Picture)
+    logger.info("MA PP FDP --> %s", link)
     # JE REMPLIE TOUS CES ELEMENTS DANS UN JSON
     my42UserInfo = {
         "username" : myLogin,
-        "profilePicture" : link,
+        "profil_pic" : link,
         "is42stud" : True,
         "password": "password_default"
     }
@@ -70,17 +66,15 @@ def login42(request):
     # Log pour la réponse brute
     #logger.info("Réponse brute de 42 API: %s", my42Response)
 
-    user_serializer = UserSerializer(data=my42UserInfo)
+    user_serializer = CreatUserSerializer(data=my42UserInfo)
 
 # 4. VALIDATION DES DONNEES ET ENREGISTREMENT EN DB SI TOUT EST OK
     if user_serializer.is_valid():
         user = user_serializer.save()  # JE SAVE CE USER EN DB
         logger.info("Utilisateur créé avec succès : %s", user)
+        return JsonResponse(user_serializer.data, safe=False)
     else:
         logger.error("Erreur de validation du serializer : %s", user_serializer.errors)
-        
     
-    # logger.info("Mon JSON ---> %s", myUser)
-    return JsonResponse({"response": "test"}, safe=False)
-
+    return JsonResponse({"username" : myLogin}, safe=False)
 

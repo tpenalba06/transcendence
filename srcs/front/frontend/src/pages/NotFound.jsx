@@ -5,7 +5,8 @@ function NotFound() {
         <section className="bg-notfound">
             <div className="content-notfound">
                 <h1>404 Not Found</h1>
-                <p>The page you'are looking for doesn't existe!</p>
+                <h1>Are you lost ?</h1>
+                <h1>Are you lost ?</h1>
             </div>
         </section>
     )

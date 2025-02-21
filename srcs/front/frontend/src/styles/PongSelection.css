@@ -1,0 +1,95 @@
+/* #root {
+    margin-top: 10%;
+    margin-bottom: 20%;
+} */
+
+
+@font-face {
+    font-family: 'Futurama';
+    src: url("../assets/fonts/fr-bold.ttf");
+  }
+
+.button {
+    padding: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  
+    font-size: 2rem;
+    -webkit-text-stroke: 1px black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  
+    border: 3px solid white;
+    border-radius: 2rem;
+  
+    flex: 1;
+  
+    background-color: white;
+  
+    box-shadow:
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
+  
+    width: 100%;
+  
+    font-family: 'Futurama';
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.selector {
+    justify-content: center;
+    text-align: center;
+}
+
+.selector div {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.selector div img {
+    border-style: solid;
+    border-width: 5px;
+    color: white;
+    border-radius: 10px;
+
+    padding: 10px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.selector p
+{
+    color: white;
+    font-size: 25px;
+}
+
+#points {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;  
+    appearance: none;
+    width: 100%; 
+    height: 25px; 
+    background: #d3d3d3; 
+    outline: none; 
+    opacity: 0.7; 
+    -webkit-transition: .2s; 
+    transition: opacity .2s;
+}
+
+.slider:hover {
+opacity: 1; /* Fully shown on mouse-over */
+}

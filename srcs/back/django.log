@@ -1,0 +1,637 @@
+INFO 2025-02-11 15:27:17,397 autoreload 36 138730916137800 Watching for file changes with StatReloader
+INFO 2025-02-11 15:27:24,702 runserver 36 138730832608056 WebSocket HANDSHAKING /ws/chat/ [172.18.0.1:48276]
+INFO 2025-02-11 15:27:24,782 runserver 36 138730832608056 WebSocket CONNECT /ws/chat/ [172.18.0.1:48276]
+INFO 2025-02-11 15:27:24,787 runserver 36 138730832608056 WebSocket HANDSHAKING /ws/chat/ [172.18.0.1:48288]
+INFO 2025-02-11 15:27:24,817 runserver 36 138730832608056 WebSocket CONNECT /ws/chat/ [172.18.0.1:48288]
+INFO 2025-02-11 15:27:24,824 runserver 36 138730832608056 WebSocket HANDSHAKING /ws/online/ [172.18.0.1:48296]
+INFO 2025-02-11 15:27:24,850 runserver 36 138730832608056 WebSocket CONNECT /ws/online/ [172.18.0.1:48296]
+INFO 2025-02-11 15:27:24,856 runserver 36 138730832608056 WebSocket HANDSHAKING /ws/chat/ [172.18.0.1:48306]
+INFO 2025-02-11 15:27:24,874 runserver 36 138730832608056 WebSocket CONNECT /ws/chat/ [172.18.0.1:48306]
+INFO 2025-02-11 15:27:24,878 runserver 36 138730832608056 WebSocket HANDSHAKING /ws/online/ [172.18.0.1:48322]
+INFO 2025-02-11 15:27:24,932 runserver 36 138730832608056 WebSocket CONNECT /ws/online/ [172.18.0.1:48322]
+INFO 2025-02-11 15:27:24,938 runserver 36 138730832608056 WebSocket HANDSHAKING /ws/online/ [172.18.0.1:48326]
+INFO 2025-02-11 15:27:24,954 runserver 36 138730832608056 WebSocket CONNECT /ws/online/ [172.18.0.1:48326]
+INFO 2025-02-11 15:27:35,353 autoreload 36 138730916137800 /usr/src/app/backend/backend/settings.py changed, reloading.
+INFO 2025-02-11 15:27:35,944 autoreload 41 135753765448520 Watching for file changes with StatReloader
+INFO 2025-02-11 15:27:38,547 runserver 41 135753681906488 WebSocket HANDSHAKING /ws/chat/ [172.18.0.1:48362]
+INFO 2025-02-11 15:27:38,628 runserver 41 135753681906488 WebSocket CONNECT /ws/chat/ [172.18.0.1:48362]
+INFO 2025-02-11 15:27:39,546 runserver 41 135753681906488 WebSocket HANDSHAKING /ws/chat/ [172.18.0.1:48364]
+INFO 2025-02-11 15:27:39,578 runserver 41 135753681906488 WebSocket CONNECT /ws/chat/ [172.18.0.1:48364]
+INFO 2025-02-11 15:27:39,584 runserver 41 135753681906488 WebSocket HANDSHAKING /ws/online/ [172.18.0.1:48368]
+INFO 2025-02-11 15:27:39,612 runserver 41 135753681906488 WebSocket CONNECT /ws/online/ [172.18.0.1:48368]
+INFO 2025-02-11 15:27:39,620 runserver 41 135753681906488 WebSocket HANDSHAKING /ws/chat/ [172.18.0.1:48380]
+INFO 2025-02-11 15:27:39,638 runserver 41 135753681906488 WebSocket CONNECT /ws/chat/ [172.18.0.1:48380]
+INFO 2025-02-11 15:27:40,545 runserver 41 135753681906488 WebSocket HANDSHAKING /ws/online/ [172.18.0.1:48396]
+INFO 2025-02-11 15:27:40,577 runserver 41 135753681906488 WebSocket CONNECT /ws/online/ [172.18.0.1:48396]
+INFO 2025-02-11 15:27:40,585 runserver 41 135753681906488 WebSocket HANDSHAKING /ws/online/ [172.18.0.1:48398]
+INFO 2025-02-11 15:27:40,620 runserver 41 135753681906488 WebSocket CONNECT /ws/online/ [172.18.0.1:48398]
+INFO 2025-02-11 15:28:17,999 autoreload 13 139451852012360 Watching for file changes with StatReloader
+INFO 2025-02-11 15:28:19,947 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:34920]
+INFO 2025-02-11 15:28:20,037 runserver 13 139451768466232 WebSocket REJECT /ws/chat/ [172.19.0.1:34920]
+INFO 2025-02-11 15:28:20,038 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:34920]
+INFO 2025-02-11 15:28:29,337 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:59642]
+INFO 2025-02-11 15:28:29,359 runserver 13 139451768466232 WebSocket REJECT /ws/online/ [172.19.0.1:59642]
+INFO 2025-02-11 15:28:29,360 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:59642]
+INFO 2025-02-11 15:28:43,553 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:51356]
+INFO 2025-02-11 15:28:43,585 runserver 13 139451768466232 WebSocket REJECT /ws/online/ [172.19.0.1:51356]
+INFO 2025-02-11 15:28:43,586 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:51356]
+INFO 2025-02-11 15:28:54,068 runserver 13 139451768466232 HTTP POST /api/user/register/ 201 [0.52, 172.19.0.1:37282]
+INFO 2025-02-11 15:28:55,882 runserver 13 139451768466232 HTTP POST /api/user/token/ 200 [0.50, 172.19.0.1:37282]
+ERROR 2025-02-11 15:28:55,975 log 13 139451745803064 Internal Server Error: /api/user/getUser/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 284, in _get_response_async
+    response = await sync_to_async(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/response.py", line 59, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+ERROR 2025-02-11 15:28:55,979 runserver 13 139451768466232 HTTP GET /api/user/getUser/?Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhbGV4IiwiZXhwIjoxNzQxODc5NzM1LCJpYXQiOjE3MzkyODc3MzV9.NFyBMIrPJKdBW_VbHp_m9YISUPTJurHCx5YfxaW2Tvs 500 [0.05, 172.19.0.1:37296]
+INFO 2025-02-11 15:29:04,504 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:53008]
+INFO 2025-02-11 15:29:04,506 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:53020]
+INFO 2025-02-11 15:29:04,539 runserver 13 139451768466232 WebSocket REJECT /ws/chat/ [172.19.0.1:53008]
+INFO 2025-02-11 15:29:04,540 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:53008]
+INFO 2025-02-11 15:29:04,560 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:53020]
+INFO 2025-02-11 15:29:04,568 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:53032]
+INFO 2025-02-11 15:29:04,602 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:53032]
+INFO 2025-02-11 15:29:04,606 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:53038]
+INFO 2025-02-11 15:29:04,622 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:53038]
+INFO 2025-02-11 15:29:04,625 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:53046]
+INFO 2025-02-11 15:29:04,640 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:53046]
+INFO 2025-02-11 15:29:04,643 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:53060]
+INFO 2025-02-11 15:29:04,660 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:53060]
+WARNING 2025-02-11 15:29:09,995 log 13 139451746863928 Forbidden: /api/user/token/
+WARNING 2025-02-11 15:29:09,996 runserver 13 139451768466232 HTTP POST /api/user/token/ 403 [0.50, 172.19.0.1:37282]
+INFO 2025-02-11 15:29:15,120 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:53038]
+INFO 2025-02-11 15:29:15,122 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:53020]
+INFO 2025-02-11 15:29:15,123 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:53060]
+INFO 2025-02-11 15:29:15,124 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:53046]
+INFO 2025-02-11 15:29:15,125 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:53032]
+WARNING 2025-02-11 15:29:18,304 log 13 139451746863928 Forbidden: /api/user/token/
+WARNING 2025-02-11 15:29:18,309 runserver 13 139451768466232 HTTP POST /api/user/token/ 403 [0.51, 172.19.0.1:37282]
+WARNING 2025-02-11 15:29:19,835 log 13 139451740719928 Forbidden: /api/user/token/
+WARNING 2025-02-11 15:29:19,836 runserver 13 139451768466232 HTTP POST /api/user/token/ 403 [0.51, 172.19.0.1:37282]
+WARNING 2025-02-11 15:29:23,457 log 13 139451744496440 Forbidden: /api/user/token/
+WARNING 2025-02-11 15:29:23,458 runserver 13 139451768466232 HTTP POST /api/user/token/ 403 [0.50, 172.19.0.1:37282]
+WARNING 2025-02-11 15:29:34,270 log 13 139451745803064 Unauthorized: /api/user/token/
+WARNING 2025-02-11 15:29:34,272 runserver 13 139451768466232 HTTP POST /api/user/token/ 401 [0.02, 172.19.0.1:37282]
+INFO 2025-02-11 15:29:35,988 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:49786]
+INFO 2025-02-11 15:29:36,012 runserver 13 139451768466232 WebSocket REJECT /ws/online/ [172.19.0.1:49786]
+INFO 2025-02-11 15:29:36,014 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:49786]
+INFO 2025-02-11 15:29:36,238 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:49792]
+INFO 2025-02-11 15:29:36,271 runserver 13 139451768466232 WebSocket REJECT /ws/chat/ [172.19.0.1:49792]
+INFO 2025-02-11 15:29:36,272 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:49792]
+INFO 2025-02-11 15:29:36,606 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:49806]
+INFO 2025-02-11 15:29:36,637 runserver 13 139451768466232 WebSocket REJECT /ws/chat/ [172.19.0.1:49806]
+INFO 2025-02-11 15:29:36,638 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:49806]
+INFO 2025-02-11 15:29:37,138 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:49814]
+INFO 2025-02-11 15:29:37,156 runserver 13 139451768466232 WebSocket REJECT /ws/online/ [172.19.0.1:49814]
+INFO 2025-02-11 15:29:37,157 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:49814]
+INFO 2025-02-11 15:29:37,903 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:49828]
+INFO 2025-02-11 15:29:37,931 runserver 13 139451768466232 WebSocket REJECT /ws/online/ [172.19.0.1:49828]
+INFO 2025-02-11 15:29:37,931 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:49828]
+INFO 2025-02-11 15:29:38,968 runserver 13 139451768466232 HTTP POST /api/user/register/ 201 [0.51, 172.19.0.1:37282]
+INFO 2025-02-11 15:29:39,049 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:49834]
+INFO 2025-02-11 15:29:39,082 runserver 13 139451768466232 WebSocket REJECT /ws/chat/ [172.19.0.1:49834]
+INFO 2025-02-11 15:29:39,083 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:49834]
+INFO 2025-02-11 15:29:40,757 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:49846]
+INFO 2025-02-11 15:29:40,796 runserver 13 139451768466232 WebSocket REJECT /ws/online/ [172.19.0.1:49846]
+INFO 2025-02-11 15:29:40,797 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:49846]
+INFO 2025-02-11 15:29:41,083 runserver 13 139451768466232 HTTP POST /api/user/token/ 200 [0.52, 172.19.0.1:37282]
+ERROR 2025-02-11 15:29:41,142 log 13 139451745803064 Internal Server Error: /api/user/getUser/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 284, in _get_response_async
+    response = await sync_to_async(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/response.py", line 59, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+ERROR 2025-02-11 15:29:41,145 runserver 13 139451768466232 HTTP GET /api/user/getUser/?Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJ0aW0iLCJleHAiOjE3NDE4Nzk3ODEsImlhdCI6MTczOTI4Nzc4MX0.LhPzNrTvHbSdFG7da8kVQschyg3o_m4bpGLORvLajD8 500 [0.02, 172.19.0.1:37296]
+INFO 2025-02-11 15:29:43,306 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:56580]
+INFO 2025-02-11 15:29:43,308 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:56584]
+INFO 2025-02-11 15:29:43,331 runserver 13 139451768466232 WebSocket REJECT /ws/chat/ [172.19.0.1:56580]
+INFO 2025-02-11 15:29:43,332 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:56580]
+INFO 2025-02-11 15:29:43,346 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:56584]
+INFO 2025-02-11 15:29:43,351 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:56586]
+INFO 2025-02-11 15:29:43,367 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:56586]
+INFO 2025-02-11 15:29:43,373 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:56600]
+INFO 2025-02-11 15:29:43,400 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:56600]
+INFO 2025-02-11 15:29:43,406 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:56608]
+INFO 2025-02-11 15:29:43,435 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:56608]
+INFO 2025-02-11 15:29:43,442 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:56622]
+INFO 2025-02-11 15:29:43,460 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:56622]
+INFO 2025-02-11 15:29:47,228 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:56638]
+INFO 2025-02-11 15:29:47,254 runserver 13 139451768466232 WebSocket REJECT /ws/chat/ [172.19.0.1:56638]
+INFO 2025-02-11 15:29:47,255 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:56638]
+INFO 2025-02-11 15:29:47,553 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:56654]
+INFO 2025-02-11 15:29:47,585 runserver 13 139451768466232 WebSocket REJECT /ws/chat/ [172.19.0.1:56654]
+INFO 2025-02-11 15:29:47,586 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:56654]
+INFO 2025-02-11 15:29:48,030 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:56670]
+INFO 2025-02-11 15:29:48,061 runserver 13 139451768466232 WebSocket REJECT /ws/online/ [172.19.0.1:56670]
+INFO 2025-02-11 15:29:48,062 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:56670]
+INFO 2025-02-11 15:29:48,725 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:56674]
+INFO 2025-02-11 15:29:48,752 runserver 13 139451768466232 WebSocket REJECT /ws/online/ [172.19.0.1:56674]
+INFO 2025-02-11 15:29:48,754 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:56674]
+INFO 2025-02-11 15:29:49,744 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:56678]
+INFO 2025-02-11 15:29:49,766 runserver 13 139451768466232 WebSocket REJECT /ws/online/ [172.19.0.1:56678]
+INFO 2025-02-11 15:29:49,767 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:56678]
+INFO 2025-02-11 15:29:51,251 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:56688]
+INFO 2025-02-11 15:29:51,270 runserver 13 139451768466232 WebSocket REJECT /ws/chat/ [172.19.0.1:56688]
+INFO 2025-02-11 15:29:51,271 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:56688]
+INFO 2025-02-11 15:29:53,514 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:49606]
+INFO 2025-02-11 15:29:53,542 runserver 13 139451768466232 WebSocket REJECT /ws/chat/ [172.19.0.1:49606]
+INFO 2025-02-11 15:29:53,542 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:49606]
+INFO 2025-02-11 15:29:53,972 runserver 13 139451768466232 HTTP POST /api/user/register/ 201 [0.51, 172.19.0.1:37282]
+INFO 2025-02-11 15:29:55,947 runserver 13 139451768466232 HTTP POST /api/user/token/ 200 [0.51, 172.19.0.1:37282]
+ERROR 2025-02-11 15:29:56,027 log 13 139451746863928 Internal Server Error: /api/user/getUser/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 284, in _get_response_async
+    response = await sync_to_async(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/response.py", line 59, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+ERROR 2025-02-11 15:29:56,029 runserver 13 139451768466232 HTTP GET /api/user/getUser/?Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywidXNlcm5hbWUiOiJvayIsImV4cCI6MTc0MTg3OTc5NSwiaWF0IjoxNzM5Mjg3Nzk1fQ.kibqc7_Q5y-lS1sSOve1AjEaGL22mY2A_HFClzXb_Dg 500 [0.02, 172.19.0.1:37296]
+INFO 2025-02-11 15:29:56,877 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:49610]
+INFO 2025-02-11 15:29:56,880 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:49616]
+INFO 2025-02-11 15:29:56,915 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:49610]
+INFO 2025-02-11 15:29:56,921 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:49622]
+INFO 2025-02-11 15:29:56,943 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:49616]
+INFO 2025-02-11 15:29:56,949 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:49630]
+INFO 2025-02-11 15:29:56,961 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:49622]
+INFO 2025-02-11 15:29:56,968 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:49634]
+INFO 2025-02-11 15:29:56,987 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:49630]
+INFO 2025-02-11 15:29:56,991 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:49640]
+INFO 2025-02-11 15:29:56,999 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:49634]
+INFO 2025-02-11 15:29:57,005 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:49648]
+INFO 2025-02-11 15:29:57,017 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:49640]
+INFO 2025-02-11 15:29:57,024 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:49660]
+INFO 2025-02-11 15:29:57,034 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:49648]
+INFO 2025-02-11 15:29:57,043 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:49664]
+INFO 2025-02-11 15:29:57,053 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:49660]
+INFO 2025-02-11 15:29:57,060 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:49680]
+INFO 2025-02-11 15:29:57,080 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:49664]
+INFO 2025-02-11 15:29:57,091 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:49682]
+INFO 2025-02-11 15:29:57,103 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:49680]
+INFO 2025-02-11 15:29:57,118 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:49682]
+INFO 2025-02-11 15:29:59,421 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:49698]
+INFO 2025-02-11 15:29:59,449 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:49698]
+INFO 2025-02-11 15:30:06,148 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:50976]
+INFO 2025-02-11 15:30:06,176 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:50976]
+INFO 2025-02-11 15:31:48,213 runserver 13 139451768466232 HTTP POST /api/user/register/ 201 [0.51, 172.19.0.1:49350]
+INFO 2025-02-11 15:31:50,836 runserver 13 139451768466232 HTTP POST /api/user/token/ 200 [0.50, 172.19.0.1:49350]
+INFO 2025-02-11 15:31:50,862 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:49358]
+INFO 2025-02-11 15:31:50,879 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:49358]
+INFO 2025-02-11 15:31:50,886 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:49376]
+ERROR 2025-02-11 15:31:50,910 log 13 139451740719928 Internal Server Error: /api/user/getUser/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 284, in _get_response_async
+    response = await sync_to_async(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/response.py", line 59, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+ERROR 2025-02-11 15:31:50,913 runserver 13 139451768466232 HTTP GET /api/user/getUser/?Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwidXNlcm5hbWUiOiJ6eiIsImV4cCI6MTc0MTg3OTkxMCwiaWF0IjoxNzM5Mjg3OTEwfQ._KO7WxD0i3UeMTdO70zhiE0KPu55Uaq_s--bjMAMuhU 500 [0.03, 172.19.0.1:49364]
+INFO 2025-02-11 15:31:50,916 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:49376]
+INFO 2025-02-11 15:31:50,919 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:49390]
+INFO 2025-02-11 15:31:50,932 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:49390]
+INFO 2025-02-11 15:31:50,937 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:49406]
+INFO 2025-02-11 15:31:50,954 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:49406]
+INFO 2025-02-11 15:31:50,959 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:49420]
+INFO 2025-02-11 15:31:50,979 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:49420]
+INFO 2025-02-11 15:31:53,652 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:37736]
+INFO 2025-02-11 15:31:53,689 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:37736]
+INFO 2025-02-11 15:31:59,694 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:49682]
+INFO 2025-02-11 15:31:59,697 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:49622]
+INFO 2025-02-11 15:31:59,697 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:49648]
+INFO 2025-02-11 15:31:59,698 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:49610]
+INFO 2025-02-11 15:31:59,698 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:49634]
+INFO 2025-02-11 15:31:59,699 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:49664]
+INFO 2025-02-11 15:31:59,927 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:37742]
+INFO 2025-02-11 15:31:59,948 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:37742]
+ERROR 2025-02-11 15:31:59,971 log 13 139451746863928 Internal Server Error: /api/user/getUser/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 284, in _get_response_async
+    response = await sync_to_async(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/response.py", line 59, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+INFO 2025-02-11 15:31:59,973 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:37752]
+ERROR 2025-02-11 15:31:59,984 runserver 13 139451768466232 HTTP GET /api/user/getUser/?Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwidXNlcm5hbWUiOiJ6eiIsImV4cCI6MTc0MTg3OTkxMCwiaWF0IjoxNzM5Mjg3OTEwfQ._KO7WxD0i3UeMTdO70zhiE0KPu55Uaq_s--bjMAMuhU 500 [0.04, 172.19.0.1:49364]
+INFO 2025-02-11 15:31:59,997 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:37752]
+INFO 2025-02-11 15:32:00,000 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:37758]
+INFO 2025-02-11 15:32:00,013 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:37758]
+INFO 2025-02-11 15:32:00,017 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/online/ [172.19.0.1:37760]
+INFO 2025-02-11 15:32:00,034 runserver 13 139451768466232 WebSocket CONNECT /ws/online/ [172.19.0.1:37760]
+INFO 2025-02-11 15:32:00,038 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:37772]
+INFO 2025-02-11 15:32:00,064 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:37772]
+INFO 2025-02-11 15:32:09,682 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:49124]
+INFO 2025-02-11 15:32:09,708 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:49124]
+INFO 2025-02-11 15:33:32,717 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:59624]
+INFO 2025-02-11 15:33:32,743 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:59624]
+INFO 2025-02-11 15:33:59,361 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:59624]
+INFO 2025-02-11 15:34:02,370 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:36678]
+INFO 2025-02-11 15:34:02,405 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:36678]
+INFO 2025-02-11 15:34:06,591 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:36022]
+INFO 2025-02-11 15:34:06,620 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:36022]
+INFO 2025-02-11 15:34:38,592 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:50976]
+INFO 2025-02-11 15:34:41,601 runserver 13 139451768466232 WebSocket HANDSHAKING /ws/chat/ [172.19.0.1:42796]
+INFO 2025-02-11 15:34:41,631 runserver 13 139451768466232 WebSocket CONNECT /ws/chat/ [172.19.0.1:42796]
+WARNING 2025-02-11 15:35:07,283 log 13 139451744496440 Forbidden: /api/user/token/
+WARNING 2025-02-11 15:35:07,284 runserver 13 139451768466232 HTTP POST /api/user/token/ 403 [0.49, 172.19.0.1:42724]
+INFO 2025-02-11 15:35:13,549 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:49640]
+INFO 2025-02-11 15:35:13,550 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:49660]
+INFO 2025-02-11 15:35:13,551 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:49680]
+INFO 2025-02-11 15:35:13,553 runserver 13 139451768466232 WebSocket DISCONNECT /ws/online/ [172.19.0.1:49616]
+INFO 2025-02-11 15:35:13,554 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:49630]
+INFO 2025-02-11 15:35:13,555 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:49698]
+INFO 2025-02-11 15:35:13,556 runserver 13 139451768466232 WebSocket DISCONNECT /ws/chat/ [172.19.0.1:49124]
+WARNING 2025-02-11 15:35:17,046 log 13 139451745803064 Forbidden: /api/user/token/
+WARNING 2025-02-11 15:35:17,047 runserver 13 139451768466232 HTTP POST /api/user/token/ 403 [0.49, 172.19.0.1:42724]
+WARNING 2025-02-11 16:00:15,418 log 13 139451746863928 Forbidden: /api/user/token/
+WARNING 2025-02-11 16:00:15,419 runserver 13 139451768466232 HTTP POST /api/user/token/ 403 [0.50, 172.19.0.1:43654]
+INFO 2025-02-11 16:04:09,854 autoreload 13 139451852012360 /usr/src/app/backend/backend/settings.py changed, reloading.
+INFO 2025-02-11 16:04:10,500 autoreload 41 130909024881480 Watching for file changes with StatReloader
+INFO 2025-02-11 16:05:14,658 autoreload 13 130024466651976 Watching for file changes with StatReloader
+INFO 2025-02-11 16:05:41,583 runserver 13 130024383155000 HTTP POST /api/user/register/ 201 [0.50, 172.20.0.1:58690]
+INFO 2025-02-11 16:05:42,727 runserver 13 130024383155000 HTTP POST /api/user/token/ 200 [0.50, 172.20.0.1:58690]
+ERROR 2025-02-11 16:05:42,782 log 13 130024360364856 Internal Server Error: /api/user/getUser/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 284, in _get_response_async
+    response = await sync_to_async(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/response.py", line 59, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+ERROR 2025-02-11 16:05:42,785 runserver 13 130024383155000 HTTP GET /api/user/getUser/?Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhbGV4IiwiZXhwIjoxNzQxODgxOTQyLCJpYXQiOjE3MzkyODk5NDJ9.-LlOs7rB5iducIKaGh050c3Yr-wm1QtJUulXez3yhsc 500 [0.02, 172.20.0.1:58698]
+ERROR 2025-02-11 16:05:45,779 log 13 130024360364856 Internal Server Error: /api/user/getUser/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 284, in _get_response_async
+    response = await sync_to_async(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/response.py", line 59, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+ERROR 2025-02-11 16:05:45,782 runserver 13 130024383155000 HTTP GET /api/user/getUser/?Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhbGV4IiwiZXhwIjoxNzQxODgxOTQyLCJpYXQiOjE3MzkyODk5NDJ9.-LlOs7rB5iducIKaGh050c3Yr-wm1QtJUulXez3yhsc 500 [0.07, 172.20.0.1:58698]
+WARNING 2025-02-11 16:05:51,607 log 13 130024360364856 Bad Request: /api/user/register/
+WARNING 2025-02-11 16:05:51,608 runserver 13 130024383155000 HTTP POST /api/user/register/ 400 [0.02, 172.20.0.1:58690]
+WARNING 2025-02-11 16:05:55,740 log 13 130024360364856 Forbidden: /api/user/token/
+WARNING 2025-02-11 16:05:55,741 runserver 13 130024383155000 HTTP POST /api/user/token/ 403 [0.51, 172.20.0.1:58690]
+WARNING 2025-02-11 16:06:06,314 log 13 130024360364856 Forbidden: /api/user/token/
+WARNING 2025-02-11 16:06:06,314 runserver 13 130024383155000 HTTP POST /api/user/token/ 403 [0.50, 172.20.0.1:58690]
+INFO 2025-02-11 16:06:10,090 runserver 13 130024383155000 WebSocket HANDSHAKING /ws/chat/ [172.20.0.1:55612]
+INFO 2025-02-11 16:06:10,171 runserver 13 130024383155000 WebSocket REJECT /ws/chat/ [172.20.0.1:55612]
+INFO 2025-02-11 16:06:10,171 runserver 13 130024383155000 WebSocket DISCONNECT /ws/chat/ [172.20.0.1:55612]
+INFO 2025-02-11 16:07:02,858 autoreload 13 130024466651976 /usr/src/app/backend/user_auth/session_middleware.py changed, reloading.
+INFO 2025-02-11 16:07:03,455 autoreload 25 126183528450888 Watching for file changes with StatReloader
+INFO 2025-02-11 16:07:10,178 runserver 25 126183444921144 WebSocket HANDSHAKING /ws/chat/ [172.20.0.1:52070]
+INFO 2025-02-11 16:07:10,273 runserver 25 126183444921144 WebSocket REJECT /ws/chat/ [172.20.0.1:52070]
+INFO 2025-02-11 16:07:10,274 runserver 25 126183444921144 WebSocket DISCONNECT /ws/chat/ [172.20.0.1:52070]
+INFO 2025-02-11 16:08:16,330 runserver 25 126183444921144 WebSocket HANDSHAKING /ws/chat/ [172.20.0.1:41590]
+INFO 2025-02-11 16:08:16,365 runserver 25 126183444921144 WebSocket REJECT /ws/chat/ [172.20.0.1:41590]
+INFO 2025-02-11 16:08:16,366 runserver 25 126183444921144 WebSocket DISCONNECT /ws/chat/ [172.20.0.1:41590]
+INFO 2025-02-11 16:08:49,938 autoreload 13 136157188180808 Watching for file changes with StatReloader
+WARNING 2025-02-11 16:09:12,306 log 13 136157087189816 Unauthorized: /api/user/token/
+WARNING 2025-02-11 16:09:12,307 runserver 13 136157104651064 HTTP POST /api/user/token/ 401 [0.03, 172.21.0.1:38050]
+INFO 2025-02-11 16:09:15,345 runserver 13 136157104651064 HTTP POST /api/user/register/ 201 [0.54, 172.21.0.1:38050]
+INFO 2025-02-11 16:09:16,779 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/chat/ [172.21.0.1:38066]
+INFO 2025-02-11 16:09:16,904 runserver 13 136157104651064 WebSocket REJECT /ws/chat/ [172.21.0.1:38066]
+INFO 2025-02-11 16:09:16,905 runserver 13 136157104651064 WebSocket DISCONNECT /ws/chat/ [172.21.0.1:38066]
+INFO 2025-02-11 16:09:17,785 runserver 13 136157104651064 HTTP POST /api/user/token/ 200 [0.52, 172.21.0.1:38050]
+ERROR 2025-02-11 16:09:17,879 log 13 136157087189816 Internal Server Error: /api/user/getUser/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 284, in _get_response_async
+    response = await sync_to_async(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/response.py", line 59, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+ERROR 2025-02-11 16:09:17,884 runserver 13 136157104651064 HTTP GET /api/user/getUser/?Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhbGV4IiwiZXhwIjoxNzQxODgyMTU3LCJpYXQiOjE3MzkyOTAxNTd9.aTPBN4jKseOLHTFuMNrOWRUFzNe6WAVswRbVoYoTUBg 500 [0.05, 172.21.0.1:38072]
+WARNING 2025-02-11 16:09:30,811 log 13 136157087189816 Forbidden: /api/user/token/
+WARNING 2025-02-11 16:09:30,812 runserver 13 136157104651064 HTTP POST /api/user/token/ 403 [0.50, 172.21.0.1:38050]
+WARNING 2025-02-11 16:09:41,147 log 13 136157077871416 Forbidden: /api/user/token/
+WARNING 2025-02-11 16:09:41,148 runserver 13 136157104651064 HTTP POST /api/user/token/ 403 [0.52, 172.21.0.1:38050]
+WARNING 2025-02-11 16:09:46,521 log 13 136157087189816 Forbidden: /api/user/token/
+WARNING 2025-02-11 16:09:46,522 runserver 13 136157104651064 HTTP POST /api/user/token/ 403 [0.52, 172.21.0.1:38050]
+INFO 2025-02-11 16:10:16,909 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/online/ [172.21.0.1:56116]
+INFO 2025-02-11 16:10:16,936 runserver 13 136157104651064 WebSocket REJECT /ws/online/ [172.21.0.1:56116]
+INFO 2025-02-11 16:10:16,938 runserver 13 136157104651064 WebSocket DISCONNECT /ws/online/ [172.21.0.1:56116]
+INFO 2025-02-11 16:11:16,944 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/online/ [172.21.0.1:48178]
+INFO 2025-02-11 16:11:16,972 runserver 13 136157104651064 WebSocket REJECT /ws/online/ [172.21.0.1:48178]
+INFO 2025-02-11 16:11:16,973 runserver 13 136157104651064 WebSocket DISCONNECT /ws/online/ [172.21.0.1:48178]
+INFO 2025-02-11 16:12:19,813 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/chat/ [172.21.0.1:47416]
+INFO 2025-02-11 16:12:19,839 runserver 13 136157104651064 WebSocket REJECT /ws/chat/ [172.21.0.1:47416]
+INFO 2025-02-11 16:12:19,839 runserver 13 136157104651064 WebSocket DISCONNECT /ws/chat/ [172.21.0.1:47416]
+INFO 2025-02-11 16:12:48,268 runserver 13 136157104651064 HTTP POST /api/user/register/ 201 [0.51, 172.21.0.1:46826]
+INFO 2025-02-11 16:12:50,935 runserver 13 136157104651064 HTTP POST /api/user/token/ 200 [0.51, 172.21.0.1:46826]
+ERROR 2025-02-11 16:12:51,025 log 13 136157077871416 Internal Server Error: /api/user/getUser/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 284, in _get_response_async
+    response = await sync_to_async(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/response.py", line 59, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+ERROR 2025-02-11 16:12:51,028 runserver 13 136157104651064 HTTP GET /api/user/getUser/?Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJ0aW0iLCJleHAiOjE3NDE4ODIzNzAsImlhdCI6MTczOTI5MDM3MH0.Knu6lROdRHQY2Jf44rk01aOeALP4NL9xum3IfrTe4Iw 500 [0.04, 172.21.0.1:53670]
+ERROR 2025-02-11 16:12:53,742 log 13 136157077871416 Internal Server Error: /api/user/getUser/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 284, in _get_response_async
+    response = await sync_to_async(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/response.py", line 59, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+ERROR 2025-02-11 16:12:53,745 runserver 13 136157104651064 HTTP GET /api/user/getUser/?Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwidXNlcm5hbWUiOiJ6eiIsImV4cCI6MTc0MTg3OTkxMCwiaWF0IjoxNzM5Mjg3OTEwfQ._KO7WxD0i3UeMTdO70zhiE0KPu55Uaq_s--bjMAMuhU 500 [0.03, 172.21.0.1:53672]
+ERROR 2025-02-11 16:12:53,805 log 13 136157077871416 Internal Server Error: /api/user/getUser/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 284, in _get_response_async
+    response = await sync_to_async(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/response.py", line 59, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+ERROR 2025-02-11 16:12:53,810 runserver 13 136157104651064 HTTP GET /api/user/getUser/?Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwidXNlcm5hbWUiOiJ6eiIsImV4cCI6MTc0MTg3OTkxMCwiaWF0IjoxNzM5Mjg3OTEwfQ._KO7WxD0i3UeMTdO70zhiE0KPu55Uaq_s--bjMAMuhU 500 [0.03, 172.21.0.1:53672]
+INFO 2025-02-11 16:13:02,793 runserver 13 136157104651064 HTTP POST /api/user/register/ 201 [0.52, 172.21.0.1:34558]
+INFO 2025-02-11 16:13:05,387 runserver 13 136157104651064 HTTP POST /api/user/token/ 200 [0.51, 172.21.0.1:34558]
+ERROR 2025-02-11 16:13:05,471 log 13 136157077871416 Internal Server Error: /api/user/getUser/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 284, in _get_response_async
+    response = await sync_to_async(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/response.py", line 59, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+ERROR 2025-02-11 16:13:05,474 runserver 13 136157104651064 HTTP GET /api/user/getUser/?Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywidXNlcm5hbWUiOiIxMjMiLCJleHAiOjE3NDE4ODIzODUsImlhdCI6MTczOTI5MDM4NX0.GgqYlOnlAK_U1eRFf8SDQZD8zRQ3OhLNlx0BW5whjQM 500 [0.04, 172.21.0.1:53672]
+INFO 2025-02-11 16:13:21,565 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/online/ [172.21.0.1:39388]
+INFO 2025-02-11 16:13:21,567 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/online/ [172.21.0.1:39404]
+INFO 2025-02-11 16:13:21,594 runserver 13 136157104651064 WebSocket CONNECT /ws/online/ [172.21.0.1:39388]
+INFO 2025-02-11 16:13:21,601 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/chat/ [172.21.0.1:39412]
+INFO 2025-02-11 16:13:21,619 runserver 13 136157104651064 WebSocket REJECT /ws/online/ [172.21.0.1:39404]
+INFO 2025-02-11 16:13:21,621 runserver 13 136157104651064 WebSocket DISCONNECT /ws/online/ [172.21.0.1:39404]
+INFO 2025-02-11 16:13:21,636 runserver 13 136157104651064 WebSocket CONNECT /ws/chat/ [172.21.0.1:39412]
+INFO 2025-02-11 16:13:21,639 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/online/ [172.21.0.1:39416]
+INFO 2025-02-11 16:13:21,652 runserver 13 136157104651064 WebSocket CONNECT /ws/online/ [172.21.0.1:39416]
+INFO 2025-02-11 16:13:21,657 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/online/ [172.21.0.1:39418]
+INFO 2025-02-11 16:13:21,677 runserver 13 136157104651064 WebSocket CONNECT /ws/online/ [172.21.0.1:39418]
+INFO 2025-02-11 16:13:21,681 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/chat/ [172.21.0.1:39430]
+INFO 2025-02-11 16:13:21,701 runserver 13 136157104651064 WebSocket CONNECT /ws/chat/ [172.21.0.1:39430]
+INFO 2025-02-11 16:13:21,949 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/chat/ [172.21.0.1:39442]
+INFO 2025-02-11 16:13:21,980 runserver 13 136157104651064 WebSocket REJECT /ws/chat/ [172.21.0.1:39442]
+INFO 2025-02-11 16:13:21,981 runserver 13 136157104651064 WebSocket DISCONNECT /ws/chat/ [172.21.0.1:39442]
+INFO 2025-02-11 16:13:22,335 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/online/ [172.21.0.1:39444]
+INFO 2025-02-11 16:13:22,370 runserver 13 136157104651064 WebSocket REJECT /ws/online/ [172.21.0.1:39444]
+INFO 2025-02-11 16:13:22,371 runserver 13 136157104651064 WebSocket DISCONNECT /ws/online/ [172.21.0.1:39444]
+INFO 2025-02-11 16:13:22,899 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/online/ [172.21.0.1:39460]
+INFO 2025-02-11 16:13:22,931 runserver 13 136157104651064 WebSocket REJECT /ws/online/ [172.21.0.1:39460]
+INFO 2025-02-11 16:13:22,932 runserver 13 136157104651064 WebSocket DISCONNECT /ws/online/ [172.21.0.1:39460]
+INFO 2025-02-11 16:13:23,721 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/chat/ [172.21.0.1:39472]
+INFO 2025-02-11 16:13:23,752 runserver 13 136157104651064 WebSocket REJECT /ws/chat/ [172.21.0.1:39472]
+INFO 2025-02-11 16:13:23,753 runserver 13 136157104651064 WebSocket DISCONNECT /ws/chat/ [172.21.0.1:39472]
+INFO 2025-02-11 16:13:24,934 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/online/ [172.21.0.1:39480]
+INFO 2025-02-11 16:13:24,965 runserver 13 136157104651064 WebSocket CONNECT /ws/online/ [172.21.0.1:39480]
+INFO 2025-02-11 16:13:24,972 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/chat/ [172.21.0.1:39496]
+INFO 2025-02-11 16:13:24,997 runserver 13 136157104651064 WebSocket CONNECT /ws/chat/ [172.21.0.1:39496]
+INFO 2025-02-11 16:13:25,004 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/online/ [172.21.0.1:39508]
+INFO 2025-02-11 16:13:25,030 runserver 13 136157104651064 WebSocket CONNECT /ws/online/ [172.21.0.1:39508]
+INFO 2025-02-11 16:13:25,035 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/online/ [172.21.0.1:39524]
+INFO 2025-02-11 16:13:25,052 runserver 13 136157104651064 WebSocket CONNECT /ws/online/ [172.21.0.1:39524]
+INFO 2025-02-11 16:13:25,058 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/chat/ [172.21.0.1:39530]
+INFO 2025-02-11 16:13:25,077 runserver 13 136157104651064 WebSocket CONNECT /ws/chat/ [172.21.0.1:39530]
+INFO 2025-02-11 16:13:25,081 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/chat/ [172.21.0.1:39544]
+INFO 2025-02-11 16:13:25,095 runserver 13 136157104651064 WebSocket CONNECT /ws/chat/ [172.21.0.1:39544]
+INFO 2025-02-11 16:13:25,989 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/online/ [172.21.0.1:39560]
+INFO 2025-02-11 16:13:26,022 runserver 13 136157104651064 WebSocket CONNECT /ws/online/ [172.21.0.1:39560]
+INFO 2025-02-11 16:13:26,990 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/online/ [172.21.0.1:39566]
+INFO 2025-02-11 16:13:27,018 runserver 13 136157104651064 WebSocket CONNECT /ws/online/ [172.21.0.1:39566]
+INFO 2025-02-11 16:13:27,026 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/chat/ [172.21.0.1:39568]
+INFO 2025-02-11 16:13:27,052 runserver 13 136157104651064 WebSocket CONNECT /ws/chat/ [172.21.0.1:39568]
+INFO 2025-02-11 16:13:28,030 runserver 13 136157104651064 WebSocket HANDSHAKING /ws/online/ [172.21.0.1:39582]
+INFO 2025-02-11 16:13:28,063 runserver 13 136157104651064 WebSocket CONNECT /ws/online/ [172.21.0.1:39582]

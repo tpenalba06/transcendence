@@ -16,14 +16,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from user.views import CreatUserView
-from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
+from django.conf.urls.static import static
+from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include("rest_framework.urls")),
     path('api/', include("api.urls")),
-    path('api/user', include("api.urls")),
-    path('pong/', include("pong.urls")),
-    path('auth/', include("user_auth.urls")),
-]
+    path('pong/<str:room_id>/', include("pong.urls")),
+    path("multipong/<str:room_id>/", include("pong.urls")),
+    path('selection/', include("pong.urls")),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
