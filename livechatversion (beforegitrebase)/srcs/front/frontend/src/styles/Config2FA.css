@@ -1,0 +1,130 @@
+.active-2fa {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border: 4mm ridge rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 90vh;
+    width: 30%;
+    margin: 3% 35%;
+    background-color: rgba(10, 88, 190, 0.705);
+    box-shadow: inset 0 0 50px rgb(255, 255, 255);
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.code2fa-input {
+  width: 60%;
+  padding: 6px;
+  margin: 10px 0px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  text-align: center;
+  
+}
+
+.active-2fa p {
+    width: 55vh;
+}
+
+.qrcode {
+    height: 40%;
+    margin: 30px 0px;
+}
+
+.form-2fa {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    /* border: 4mm ridge rgb(255, 255, 255); */
+}
+
+.form-2fa h2{
+    animation: fade 2s;
+    position: absolute;
+    color: rgb(255, 0, 0);
+    margin: -29px 0px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.form-2fa button {
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #8addfc;
+    color: #ffffff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.form-2fa button:hover {
+    background-color: #aee8fd;
+    color: #0f9acc;
+}
+
+.tb {
+    /* position: absolute; */
+    width: 15vh;
+    height: 4vh;
+}
+
+.bb {
+    /* position: absolute; */
+    width: 10vh;
+    height: 4vh;
+}
+
+.disable-2fa {
+    display: block;
+    position: absolute;
+    /* flex-direction: column; */
+    border: 4mm ridge rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 50vh;
+    width: 30%;
+    margin: 10% 35%;
+    background-color: rgba(10, 88, 190, 0.705);
+    box-shadow: inset 0 0 50px rgb(255, 255, 255);
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.disable-2fa button {
+    position: absolute;
+    border-radius: 5px;
+    /* margin: 25px; */
+    background-color: #8addfc;
+    color: #ffffff;
+    transition: background-color 0.3s ease-in-out;
+    
+}
+
+.disable-2fa button:hover {
+    background-color: #aee8fd;
+    color: #0f9acc;
+}
+
+.lock {
+    margin: 10px 0px;
+    height: 25vh;
+}
+
+.re {
+    margin: 270px -230px;
+    width: 9vh;
+    height: 4vh;
+}
+
+.de {
+    margin: 270px -140px;
+    width: 15vh;
+    height: 4vh;
+}

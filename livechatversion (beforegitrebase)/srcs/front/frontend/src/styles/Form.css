@@ -1,0 +1,132 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  background-color: #ecfaff9d;
+}
+
+  /* Styles for the form section */
+  
+/* form h1 {
+	color: #1b1297;
+	font-size: 30px;
+	margin-bottom: 20px;
+} */
+	
+.form-container h2 {
+	color: #333;
+	width: 40vh;
+	font-size: 25px;
+}
+	
+.form-container label {
+	font-weight: bold;
+	margin-top: 10px;
+}
+	
+form input,
+form textarea {
+	width: 100%;
+	padding: 8px;
+	margin: 8px 0 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-style: italic;
+}
+	
+.form-container input[type="submit"] {
+	background-color: #007bff;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+	
+.form-container input[type="submit"]:hover {
+	background-color: #0056b3;
+}
+  
+.form-input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+  
+.form-button {
+  width: 95%;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #aee8fd;
+  color: #0f9acc;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.form-button:hover {
+  background-color: #8addfc;
+  color: #ffffff;
+}
+
+.login-with-42-button{
+	margin: 0% 40%;
+	background: none;
+}
+
+.logo42 {
+	border-radius: 10px;
+	margin: 0px 13px;
+}
+
+.div-login-page h2{
+	font-style: italic;
+	color: #ffffff;
+	margin: 0% 19%;
+}
+  
+
+.pass-false {
+	animation: fade 2s;
+	position: absolute;
+	margin: -152px 328px;
+	width: 300px;
+	color: red;
+}
+
+.code2fa-input-login{
+	width: 60%;
+	margin: 10px 65px;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.login-false{
+	animation: fade 2s;
+	position: absolute;
+	margin: -153px 340px;
+	color: red;
+	width: 300px;
+}
+
+.username-register{
+	color: red;
+	position: absolute;
+	animation: fade 2s;
+	font-size: 14px;
+	margin: -290px 325px;
+	width: 350px;
+}

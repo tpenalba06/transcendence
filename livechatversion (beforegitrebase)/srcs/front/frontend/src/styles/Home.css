@@ -1,0 +1,117 @@
+/* @import 'bootstrap/dist/css/bootstrap.css'; */
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+}
+
+body {
+	background-image: url(../assets/background_pong.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2 {
+	color: #ffffff;
+}
+  
+  /* Container for the whole page */
+div {
+	font-family: Arial, sans-serif;
+}
+  
+.go-to-register-button {
+	display: flex;
+	width: 25vh;
+	justify-content: center;
+	background-color: #aee8fd;
+	margin: 10px auto;
+	color: #0f9acc;
+	padding: 10px 15px;
+	border-radius: 100px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.2s ease-in-out;
+}
+  
+.go-to-register-button:hover {
+	background-color: #8addfc;
+	width: 25vh;
+  	color: #ffffff;
+}
+  
+.go-to-login-button {
+	display: flex;
+	width: 25vh;
+	justify-content: center;
+	background-color: #aee8fd;
+	margin: 10px auto;
+	color: #0f9acc;
+	padding: 10px 15px;
+	border-radius: 100px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.go-to-login-button:hover {
+	background-color: #8addfc;
+  	color: #ffffff;
+	width: 25vh;
+}
+
+/* video {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+} */
+
+.logout-button {
+	position: absolute;
+	background: none;
+	margin: 40.2% 92.8%;
+}
+
+
+.div-login-page{
+	margin: 6% auto;
+	border: 3mm ridge #ffffff;
+	background :none;
+	box-shadow: inset 0 0 50px rgba(255, 255, 255, 0.877);
+	backdrop-filter: blur(6px);
+	border-radius: 20px;
+	height: 65vh;
+    width: 50%;
+}
+
+.logout-logo {
+	width: 15vh;
+}
+
+.pong-button {
+	position: absolute;
+	left: 37%;
+	top: 34%;
+	background-image: url("../assets/img/Hockey.png");
+	background-size: contain;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	overflow: hidden;
+
+	width: 25%;
+	height: 40%;
+
+	image-rendering: pixelated;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: crisp-edges;
+}
+
+.pong-button:hover {
+	left: 36%;
+	top: 33%;
+	height: 45%;
+	width: 30%;
+}

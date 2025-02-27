@@ -1,0 +1,85 @@
+
+html {
+	height: 100%;
+}
+
+#root {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.MovingBall {
+	position: relative;
+	display : flex;
+	max-width: fit-content;
+	flex-direction: column;
+	font-size: large;
+	text-align: center;
+	color: white;
+	background-color: transparent;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.MovingBall button {
+
+	color: white;
+	background-color: black;
+	border: 3px solid white;
+	border-radius: 6px;
+	padding: 5px;
+	margin: 2.5px;
+}
+.MovingBall button:active {
+	color: black;
+	background-color: white;
+}
+
+.leftBar {
+	display : flex;
+
+	position: relative;
+	left: 0;
+	top: 0;
+
+	width: 5rem;
+	min-height: 20px;
+	background-color: gray;
+
+	border: 3px solid white;
+	border-radius: 6px;
+	padding: 10px;
+}
+
+#leftBar span {
+	display: block;
+	height: 100%;
+
+	position: relative;
+	overflow: hidden;
+
+	background-color: aqua;
+	width: 25%;
+}
+
+#wrapper {
+	position:relative;
+    display:inline-block;
+
+}
+
+canvas {
+	vertical-align: middle;
+}
+
+.ici {
+	position: absolute;
+	top:50%; /* element top side at 50% of container top side */
+    left:50%; /* element left side at 50% of container left side */
+    transform:translate(-50%,-50%);
+}

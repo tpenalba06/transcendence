@@ -1,0 +1,267 @@
+.bg-notfound {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/notfound.jpg);
+    box-shadow: inset 0 0 0 200000px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: glitch_bg 0.3s;
+}
+
+@keyframes glitch_bg {
+    0% {
+        transform: skew(-0.5deg, -0.9deg);
+    }
+    10% {
+        transform: none;
+    }
+    20% {
+        transform: skew(-1deg, 0.2deg);
+        opacity: 0.25;
+    }
+    30% {
+        transform: none;
+        opacity: 1;
+    }
+    40% {
+        transform: skew(-0.5deg, -0.9deg);
+        opacity: 0.75;
+    }
+    50% {
+        transform: none;
+    }
+    60% {
+        transform: skew(-1deg, 0.2deg);
+    }
+    70% {
+        transform: none;
+    }
+    80% {
+        transform: skew(0.4deg, 1deg);
+        opacity: 0.75;
+    }
+    90% {
+        transform: none;
+    }
+    100% {
+        transform: skew(0.4deg, 1deg);
+    }
+}
+
+.content-notfound{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 40px;
+    align-items: center;
+    /* backdrop-filter: blur(3px); */
+    height: 50vh;
+    width: 50%;
+}
+
+.content-notfound h1 {
+	font-size: calc(20vw + 0.5);
+	font-weight: 900;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  line-height: 0;
+  animation: glitch1 1s infinite;
+}
+
+.content-notfound p {
+    font-size: 25px;
+    color: aliceblue;
+}
+  
+.content-notfound h1:nth-child(2) {
+  color: #25ddbb;
+  animation: glitch2 1s infinite;
+}
+  
+.content-notfound h1:nth-child(3) {
+  color: #3fc3f7;
+  animation: glitch3 1.5s infinite;
+}
+
+  .ligth-button{
+    position: absolute;
+    border-radius: 20%;
+    background: none;
+    height: 70%;
+    width: 5%;
+    margin: 9% 95%;
+  }
+
+  .ligth {
+    position: absolute;
+    margin: 0px 63.5%;
+    width: 36.5%;
+    height: 100%;
+  }
+  
+  @keyframes glitch1 {
+    0% {
+      transform: none;
+      opacity: 1;
+    }
+    7% {
+      transform: skew(-0.5deg, -0.9deg);
+      opacity: 0.75;
+    }
+    10% {
+      transform: none;
+      opacity: 1;
+    }
+    27% {
+      transform: none;
+      opacity: 1;
+    }
+    30% {
+      transform: skew(0.8deg, -0.1deg);
+      opacity: 0.75;
+    }
+    35% {
+      transform: none;
+      opacity: 1;
+    }
+    52% {
+      transform: none;
+      opacity: 1;
+    }
+    55% {
+      transform: skew(-1deg, 0.2deg);
+      opacity: 0.75;
+    }
+    50% {
+      transform: none;
+      opacity: 1;
+    }
+    72% {
+      transform: none;
+      opacity: 1;
+    }
+    75% {
+      transform: skew(0.4deg, 1deg);
+      opacity: 0.75;
+    }
+    80% {
+      transform: none;
+      opacity: 1;
+    }
+    100% {
+      transform: none;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes glitch2 {
+    0% {
+      transform: none;
+      opacity: 0.25;
+    }
+    7% {
+      transform: translate(-2px, -3px);
+      opacity: 0.5;
+    }
+    10% {
+      transform: none;
+      opacity: 0.25;
+    }
+    27% {
+      transform: none;
+      opacity: 0.25;
+    }
+    30% {
+      transform: translate(-5px, -2px);
+      opacity: 0.5;
+    }
+    35% {
+      transform: none;
+      opacity: 0.25;
+    }
+    52% {
+      transform: none;
+      opacity: 0.25;
+    }
+    55% {
+      transform: translate(-5px, -1px);
+      opacity: 0.5;
+    }
+    50% {
+      transform: none;
+      opacity: 0.25;
+    }
+    72% {
+      transform: none;
+      opacity: 0.25;
+    }
+    75% {
+      transform: translate(-2px, -6px);
+      opacity: 0.5;
+    }
+    80% {
+      transform: none;
+      opacity: 0.25;
+    }
+    100% {
+      transform: none;
+      opacity: 0.25;
+    }
+  }
+  
+  @keyframes glitch3 {
+    0% {
+      transform: none;
+      opacity: 0.25;
+    }
+    7% {
+      transform: translate(2px, 3px);
+      opacity: 0.5;
+    }
+    10% {
+      transform: none;
+      opacity: 0.25;
+    }
+    27% {
+      transform: none;
+      opacity: 0.25;
+    }
+    30% {
+      transform: translate(5px, 2px);
+      opacity: 0.5;
+    }
+    35% {
+      transform: none;
+      opacity: 0.25;
+    }
+    52% {
+      transform: none;
+      opacity: 0.25;
+    }
+    55% {
+      transform: translate(5px, 1px);
+      opacity: 0.5;
+    }
+    50% {
+      transform: none;
+      opacity: 0.25;
+    }
+    72% {
+      transform: none;
+      opacity: 0.25;
+    }
+    75% {
+      transform: translate(2px, 6px);
+      opacity: 0.5;
+    }
+    80% {
+      transform: none;
+      opacity: 0.25;
+    }
+    100% {
+      transform: none;
+      opacity: 0.25;
+    }
+  }

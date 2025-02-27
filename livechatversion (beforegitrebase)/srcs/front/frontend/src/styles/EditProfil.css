@@ -1,0 +1,49 @@
+.content-edit{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    border: 4mm ridge rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgba(10, 88, 190, 0.705);
+    box-shadow: inset 0 0 50px rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    height: 59.7vh;
+    width: 30%;
+    margin: 5% 35%;
+}
+
+.edit-logo{
+    padding: 15px;
+    width: 75%;
+}
+
+.edit-form {
+    background:none;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	/* max-width: 600px; */
+	margin: auto;
+	height: 100%;
+	width: 100%;
+}
+
+.edit-form button{
+    /* position: absolute; */
+    border-radius: 5px;
+    margin: 50px 50px;
+    background-color: #8addfc;
+    color: #ffffff;
+    width: 10vh;
+    height: 4vh;
+    font-size: large;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.edit-form button:hover{
+    background-color: #aee8fd;
+    color: #0f9acc;
+}
+
+ 
