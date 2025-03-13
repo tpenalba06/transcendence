@@ -1,0 +1,24 @@
+/* Chat layout */
+.chat-wrapper {
+    position: fixed;
+    bottom: 20px;
+    right: 660px; /* Moved further left: 300px (friend list) + 300px (chat width) + 40px (gaps) + 20px (margin) */
+    display: flex;
+    gap: 20px;
+    z-index: 1000;
+}
+
+.chat-sidebar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat-container {
+    display: flex;
+    gap: 20px;
+}
